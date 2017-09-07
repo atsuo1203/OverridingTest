@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let car = Car()
+        car.infomation()
+        let suportsCar = SportsCar(name: "マクラーレンMP4/5ホンダ", driver: "F1レーサー", maker: "ホンダ", speed: 250)
+        print("")
+        suportsCar.infomation()
     }
 
     override func didReceiveMemoryWarning() {
