@@ -18,16 +18,16 @@ class Car: NSObject {
         return gasoline * fuelConsumption
     }
     
-    init(name:String, gasoline: Double, fuelConsumption: Double) {
+    init(name: String,wheel:Int, speed: Double, gasoline: Double, fuelConsumption: Double) {
         self.name = name
-        self.wheel = 4
-        self.speed = 60
+        self.wheel = wheel
+        self.speed = speed
         self.gasoline = gasoline
         self.fuelConsumption = fuelConsumption
     }
     
     convenience override init() {
-        self.init(name: "一般車", gasoline: 10, fuelConsumption: 10)
+        self.init(name: "一般車", wheel: 4, speed: 60, gasoline: 10, fuelConsumption: 10)
     }
     
     func infomation(){
