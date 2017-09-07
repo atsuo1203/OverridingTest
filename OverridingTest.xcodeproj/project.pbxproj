@@ -14,6 +14,8 @@
 		C02DEFB81F60DADC00B047F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02DEFB61F60DADC00B047F3 /* LaunchScreen.storyboard */; };
 		C02DEFC31F60DADC00B047F3 /* OverridingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02DEFC21F60DADC00B047F3 /* OverridingTestTests.swift */; };
 		C02DEFCE1F60DADC00B047F3 /* OverridingTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02DEFCD1F60DADC00B047F3 /* OverridingTestUITests.swift */; };
+		C02DEFE01F60DB9700B047F3 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02DEFDF1F60DB9700B047F3 /* Car.swift */; };
+		C02DEFE21F60DBAB00B047F3 /* SportsCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02DEFE11F60DBAB00B047F3 /* SportsCar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C02DEFC91F60DADC00B047F3 /* OverridingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverridingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02DEFCD1F60DADC00B047F3 /* OverridingTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverridingTestUITests.swift; sourceTree = "<group>"; };
 		C02DEFCF1F60DADC00B047F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02DEFDF1F60DB9700B047F3 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		C02DEFE11F60DBAB00B047F3 /* SportsCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsCar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				C02DEFB41F60DADC00B047F3 /* Assets.xcassets */,
 				C02DEFB61F60DADC00B047F3 /* LaunchScreen.storyboard */,
 				C02DEFB91F60DADC00B047F3 /* Info.plist */,
+				C02DEFDF1F60DB9700B047F3 /* Car.swift */,
+				C02DEFE11F60DBAB00B047F3 /* SportsCar.swift */,
 			);
 			path = OverridingTest;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			files = (
 				C02DEFB01F60DADC00B047F3 /* ViewController.swift in Sources */,
 				C02DEFAE1F60DADC00B047F3 /* AppDelegate.swift in Sources */,
+				C02DEFE01F60DB9700B047F3 /* Car.swift in Sources */,
+				C02DEFE21F60DBAB00B047F3 /* SportsCar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +522,7 @@
 				C02DEFD41F60DADC00B047F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C02DEFD51F60DADC00B047F3 /* Build configuration list for PBXNativeTarget "OverridingTestTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				C02DEFD71F60DADC00B047F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C02DEFD81F60DADC00B047F3 /* Build configuration list for PBXNativeTarget "OverridingTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				C02DEFDA1F60DADC00B047F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
