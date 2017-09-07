@@ -11,6 +11,7 @@ import UIKit
 class Car: NSObject {
     var name: String!
     var wheel: Int!
+    var speed: Double!
     var gasoline: Double!
     var fuelConsumption: Double!
     var distance: Double {
@@ -20,6 +21,7 @@ class Car: NSObject {
     init(name:String, gasoline: Double, fuelConsumption: Double) {
         self.name = name
         self.wheel = 4
+        self.speed = 60
         self.gasoline = gasoline
         self.fuelConsumption = fuelConsumption
     }
@@ -31,6 +33,7 @@ class Car: NSObject {
     func infomation(){
         print("名前 : " + name)
         print("タイヤの数 : " + wheel.description + "つ")
+        print("時速 : " + speed.description + "キロメートル")
         print("ガソリンの量 : " + gasoline.description + "リットル")
         print("燃費 : 1リットル当たり" + fuelConsumption.description + "キロメートル")
         print("走行可能距離 : " + distance.description + "キロメートル")
