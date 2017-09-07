@@ -37,5 +37,6 @@ class Car: NSObject {
         print("ガソリンの量 : " + gasoline.description + "リットル")
         print("燃費 : 1リットル当たり" + fuelConsumption.description + "キロメートル")
         print("走行可能距離 : " + distance.description + "キロメートル")
+        print("")
     }
 }

@@ -16,7 +16,8 @@ class ViewController: UIViewController {
         let car = Car()
         car.infomation()
         let suportsCar = SportsCar(name: "マクラーレンMP4/5ホンダ", driver: "F1レーサー", maker: "ホンダ", speed: 250)
-        print("")
+        suportsCar.infomation()
+        suportsCar.speed = 10000
         suportsCar.infomation()
     }
 

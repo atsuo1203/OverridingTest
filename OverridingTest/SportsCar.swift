@@ -19,9 +19,10 @@ class SportsCar: Car {
     }
     
     override func infomation() {
-        super.infomation()
         print("--Sports特有の属性--")
         print("ドライバーの名前 : " + driver)
         print("メーカーの名前 : " + maker)
+        print("------------------")
+        super.infomation()
     }
 }
